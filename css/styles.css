@@ -42,3 +42,16 @@ body {
 .section-a {
   background-color: red;
 }
+
+.section-b .container {
+  display: flex;
+}
+
+.section-b .container aside {
+  width: 33%;
+}
+
+.section-b-card-1,
+.section-b-card-3 {
+  background-color: aquamarine;
+}
