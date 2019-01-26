@@ -17,4 +17,28 @@ body {
   /* POSITIONING */
   background-size: cover;
   background-position: center;
+
+  /* Content Positioning */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#bgimage .action {
+  color: orange;
+  text-decoration: none;
+  padding: 0.3rem 0.4rem;
+  border: solid orange 1px;
+  border-radius: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+#bgimage .action:hover {
+  background-color: orange;
+  color: rgba(255, 255, 255, 1);
+}
+
+.section-a {
+  background-color: red;
 }
