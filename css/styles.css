@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: orange;
+  line-height: 1.5;
+}
+
+#bgimage {
+  /* SIZING */
+  background-image: url('/img/bgimg.jpeg');
+  width: 100vw;
+  height: 100vh;
+
+  /* POSITIONING */
+  background-size: cover;
+  background-position: center;
+}
