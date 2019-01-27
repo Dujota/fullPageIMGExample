@@ -9,8 +9,9 @@ body {
 }
 
 #bgimage {
-  /* SIZING */
   background-image: url('../img/bgimg.jpeg');
+
+  /* SIZING */
   width: 100vw;
   height: 100vh;
 
