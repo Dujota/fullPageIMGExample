@@ -52,18 +52,18 @@ body {
   font-size: 1.5rem;
 }
 
-.section-a {
+#page-2.section-a {
   background-color: red;
   height: 50vh;
 }
 
 .section-b .container {
   display: flex;
+  height: 50vh;
 }
 
 .section-b .container aside {
   width: 34%;
-  height: 50vh;
 }
 
 .section-b-card-1,
