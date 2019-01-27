@@ -4,12 +4,14 @@
 }
 
 body {
-  color: orange;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 1.5;
+  color: orange;
 }
 
 #bgimage {
   background-image: url('../img/bgimg.jpeg');
+  color: rgb(243, 247, 15);
 
   /* SIZING */
   width: 100vw;
@@ -27,21 +29,32 @@ body {
 }
 
 #bgimage .action {
-  color: orange;
+  color: rgb(243, 247, 15);
+  font-size: 1.2rem;
+  font-weight: 900;
   text-decoration: none;
-  padding: 0.3rem 0.4rem;
-  border: solid orange 1px;
+  padding: 0.6rem 1rem;
+  border: solid rgb(102, 230, 230) 1px;
+  background-color: rgba(233, 131, 48, 0.808);
   border-radius: 0.5rem;
   margin-top: 0.7rem;
 }
 
 #bgimage .action:hover {
-  background-color: orange;
   color: rgba(255, 255, 255, 1);
+}
+
+#bgimage h1 {
+  font-size: 4rem;
+}
+
+#bgimage p {
+  font-size: 1.5rem;
 }
 
 .section-a {
   background-color: red;
+  height: 50vh;
 }
 
 .section-b .container {
@@ -49,7 +62,8 @@ body {
 }
 
 .section-b .container aside {
-  width: 33%;
+  width: 34%;
+  height: 50vh;
 }
 
 .section-b-card-1,
