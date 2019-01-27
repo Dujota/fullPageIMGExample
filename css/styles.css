@@ -10,7 +10,7 @@ body {
 
 #bgimage {
   /* SIZING */
-  background-image: url('../img/bgimg.jpeg');
+  background-image: url('img/bgimg.jpeg');
   width: 100vw;
   height: 100vh;
 
