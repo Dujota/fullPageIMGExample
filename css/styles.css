@@ -57,9 +57,12 @@ body {
   height: 50vh;
 }
 
+.section-b {
+  height: 50vh;
+}
 .section-b .container {
   display: flex;
-  height: 50vh;
+  height: 100%;
 }
 
 .section-b .container aside {
